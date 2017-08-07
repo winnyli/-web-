@@ -1,0 +1,59 @@
+dl, dt, dd, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*background-color: #fff;*/
+    /*width: 100%;*/
+    /*overflow: auto;*/
+    -webkit-user-select: none;
+}
+
+/*::-webkit-scrollbar {*/
+    /*width: 0;*/
+/*}*/
+
+#wrapper dt {
+    background-color: rgb(235,235,235);
+    padding: 3px 20px;
+    color: gray
+}
+#wrapper dd:last-child{
+    border-bottom:none;
+}
+
+#wrapper dd {
+    margin: 0px 25px;
+    padding: 8px 0px;
+    border-bottom: 1px solid #dbdbdb;
+    
+}
+
+#scroller, .city-picker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    overflow: auto;
+    width: 100%;
+}
+
+.city-picker li {
+    margin: 0px 25px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #dbdbdb;
+}
